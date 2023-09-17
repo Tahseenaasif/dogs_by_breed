@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@800&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: space-between;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: contain;
+    width: 95vw;
+    background-size: cover;
+    
+}
+.top-hed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 30px;
+    
+}
+.top-hed p{
+    font-weight:bold;
+}
+.selbtn{
+   display: flex;
+   margin: 25px;
+   display: flex;
+    justify-content:space-between;
+    padding: 10px 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+button{
+   padding: 15px;
+   border-radius: 10px;
+}
+.imgcont{
+    width: 300px;
+    height: 300px;
+    font-weight: bolder;
+
+}
+
+#breeds{
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+#dogimgcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+      border-radius: 10px;
+}
+
+#dogimgcont img{
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  margin: 5px 5px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#getimg{
+   color:black;
+   font-size:15px;
+   font-weight: bold;
+   background-color: white;
+}
+
+#getimg:hover{
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+    background-color: darkgray;
+    box-shadow: 0px 0px 10px 2px gray;
+ }
